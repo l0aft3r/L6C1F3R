@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("imgs/background.jpg");
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    color: white;
+    min-height: fit-content;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: clamp(200px, 50%, 700px);
+}
+
+.eg {
+    width: 100%;
+}
+
+a {
+    color: red;
+}
+
+p {
+    margin: 1rem;
+}
+
+.template {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid red;
+    padding: 1rem;
+    text-align: left;
+}
+
+h1 {
+    color: red;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+.reminder {
+    color: gray;
+}
